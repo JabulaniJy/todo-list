@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>To do list</title>
+</head>
+<body>
+    <header>
+        <h3>Jay's to do list</h3>
+    </header>
+    <div class="input_div">
+        <section id="input_section">
+            <input type="text" id="user_input" required>
+            <button type="button" onclick="add_item()">Add to do</button>
+        </section>
+        <section id="search_section">
+            <input type="text" id="search_input" onkeyup="search()"  placeholder="Search...">
+        </section>
+    </div>
+    <section id="todo_list_section">
+        
+        <hr class="list-line">
+        
+            <ul id="todo_list"></ul>
+        <hr class="list-line">
+    </section>
+    <footer>
+        <p><small>Developed by Jabulani Kubeka</small></p>
+    </footer>
+    <script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>

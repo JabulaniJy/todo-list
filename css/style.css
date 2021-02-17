@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/bg_i.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    background-color: rgba(0, 0, 0, 0.473);
+    color: beige;
+
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.input_div{
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+    height:80px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.212);
+
+}
+#input_section{
+    display: inline;
+    position: absolute;    
+    width: 650px;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 5px;
+    float: right;
+    padding: 10px;
+}
+#input_section button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 37, 1);
+    padding: 5px;
+    font-weight: bolder;
+    color: white;
+    float: right;
+}
+#input_section input{
+    border-radius: 5px;
+    width: 400px;
+    height: 35px;
+}
+#search_section{
+    display: inline;
+    position: absolute;
+    right: 10px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    margin-left: 30px; 
+}
+#search_section input{
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+}
+#todo_list{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 650px;
+    background-color: rgba(0, 0, 0, 0.473);
+    font-size: 18pt;
+    border-radius: 5px;
+    padding: 10px;
+}
+.item_button{
+    margin-left: 10px;
+    float: right;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 37, 1);
+    padding: 5px;
+    font-weight: bolder;
+    color: white;
+}
+ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    list-style-position: inside;
+    padding: 15px;
+    border-radius: 10px;
+    list-style-type: circle;color: beige;
+    
+}
+li:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.527);
+    color: black;
+}
+.list-line{
+    width: 600px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(240, 37, 1, 0), rgba(240, 37, 1, 0.75), rgba(240, 37, 1, 0));
+}
+
+footer{
+    text-align: center;
+}
